@@ -8,7 +8,7 @@ from langchain_openai import ChatOpenAI
 from langchain.prompts import ChatPromptTemplate
 from langchain.schema import HumanMessage, SystemMessage
 
-os.environ["OPENAI_API_KEY"] = "your api key"
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 # Initialize Rich console for pretty printing
 console = Console()
