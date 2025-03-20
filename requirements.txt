@@ -3,3 +3,4 @@ requests
 pytest
 rich
 langchain-openai
+langchain
